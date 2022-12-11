@@ -1,4 +1,5 @@
-# Rithik BunnyLOL
+# djtran's personal BunnyLOL
+Quick clone of @rithik/bunnylol
 
 ## Setup
 
@@ -6,7 +7,7 @@
 
 2. Click `Manage Search Engines`.
 
-3. Add a new search engine with the URL being `http://rithik.me/bunnylol?search=%s`. Of course, you should change the `rithik.me` part to your own domain.
+3. Add a new search engine with the URL being `https://djtran.github.io/bunnylol/index.html?search=%s`. 
 
 4. Make this the default search engine.
 
@@ -14,12 +15,8 @@
 
 1. Run `npm install` so that `flow` (JavaScript type checker) can run.
 
-2. Open up the `src/commands.js` file. Add your command to the `COMMANDS` object. You must include a `name` and `url` attribute and you can add an additional `searchurl` attribute if you would to be able to type a command like `yt NBA Highlights` (in which case, `bunnylol` will automatically search for NBA Highlights on YouTube).
+2. Open up the `src/commands.js` file. Add your command to the `COMMANDS` object. You must include a `name` and `url` attribute and you can add an additional `searchurl` attribute if you would to be able to type a command like `yt NBA Highlights` (in which case, `bunnylol` will automatically search for NBA Highlights on YouTube). Run `npm run flow` for type checking.
 
-3. Run `npm run build; npm run bundle; npm run minify`.
+3. Run `npm run pub`.
 
-4. Publish to your website.
-
-## Running locally
-
-Since we use `import` module syntax, we need to run a server to bypass CORS issues. You can setup the server by running `npm install`, followed by `node server.js`. The server should be up and visible at `localhost:3000`.
+4. Test, commit, push
