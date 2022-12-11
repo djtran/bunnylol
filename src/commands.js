@@ -90,6 +90,11 @@ export const COMMANDS: {[string] : CommandType} = {
         url: "https://en.wikipedia.org",
         searchurl: "https://en.wikipedia.org/wiki/"
     },
+    '5e': {
+        name: "5e Tools",
+        url: "https://5e.tools/",
+        searchurl: "https://5e.tools/"
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
