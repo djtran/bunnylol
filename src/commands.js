@@ -35,7 +35,22 @@ export const COMMANDS: {[string] : CommandType} = {
     gd: {
         name: "Google Drive",
         url: "https://drive.google.com/drive/u/0",
-        searchurl: "https://drive.google.com/drive/u/"
+        searchurl: "https://drive.google.com/drive/u/0/search?q="
+    },
+    gdrive: {
+        name: "Google Drive",
+        url: "https://drive.google.com/drive/u/0",
+        searchurl: "https://drive.google.com/drive/u/0/search?q="
+    },
+    gdocs: {
+        name: "Google Docs",
+        url: "https://docs.google.com/document/u/0",
+        searchurl: "https://docs.google.com/document/u/0?q="
+    },
+    gdoc: {
+        name: "Google Docs",
+        url: "https://docs.google.com/document/u/0",
+        searchurl: "https://docs.google.com/document/u/0?q="
     },
     yt: {
         name: "YouTube",
