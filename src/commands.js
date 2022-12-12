@@ -95,6 +95,12 @@ export const COMMANDS: {[string] : CommandType} = {
         url: "https://5e.tools/",
         searchurl: "https://5e.tools/"
     },
+    wut: {
+        name: "wut",
+        url: "https://www.urbandictionary.com/",
+        searchurl: "https://www.urbandictionary.com/define.php?term="
+    }
+    ,
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
