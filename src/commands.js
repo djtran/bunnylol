@@ -99,8 +99,11 @@ export const COMMANDS: {[string] : CommandType} = {
         name: "wut",
         url: "https://www.urbandictionary.com/",
         searchurl: "https://www.urbandictionary.com/define.php?term="
-    }
-    ,
+    },
+    me: {
+        name: "djtran.dev",
+        url: "djtran.dev",
+    },
     DEFAULT: {
         name: "Default - Google Search",
         url: "https://google.com/",
