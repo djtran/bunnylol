@@ -102,7 +102,7 @@ export const COMMANDS: {[string] : CommandType} = {
     },
     me: {
         name: "djtran.dev",
-        url: "djtran.dev",
+        url: "https://djtran.dev/",
     },
     DEFAULT: {
         name: "Default - Google Search",
