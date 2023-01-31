@@ -23,7 +23,7 @@ export const COMMANDS: {[string] : CommandType} = {
         url: "https://facebook.com/",
         searchurl: "https://www.facebook.com/search/top/?q="
     },
-    m:{
+    chat:{
         name: "Messenger",
         url: "https://www.messenger.com/"
     },
