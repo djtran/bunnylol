@@ -20,3 +20,5 @@ Quick clone of @rithik/bunnylol
 3. Run `npm run pub`.
 
 4. Test, commit, push
+
+Note that the cache ttl set by github pages is set to 600 (10 minutes), so after you make any changes or push you won't see a change for 10 minutes. As far as I can tell, there's no way to change that setting.
