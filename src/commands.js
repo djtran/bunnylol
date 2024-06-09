@@ -23,16 +23,16 @@ export const COMMANDS: {[string] : CommandType} = {
         url: "https://facebook.com/",
         searchurl: "https://www.facebook.com/search/top/?q="
     },
-    chat:{
+    m:{
         name: "Messenger",
         url: "https://www.messenger.com/"
     },
-    gm: {
+    email: {
         name: "Gmail",
         url: "https://mail.google.com/mail/u/0",
         searchurl: "https://mail.google.com/mail/u/"
     },
-    gd: {
+    drive: {
         name: "Google Drive",
         url: "https://drive.google.com/drive/u/0",
         searchurl: "https://drive.google.com/drive/u/0/search?q="
