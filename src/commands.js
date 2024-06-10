@@ -52,22 +52,22 @@ export const COMMANDS: {[string] : CommandType} = {
         url: "https://docs.google.com/document/u/0",
         searchurl: "https://docs.google.com/document/u/0?q="
     },
-    yt: {
+    youtube: {
         name: "YouTube",
         url: "https://youtube.com/",
         searchurl: "https://www.youtube.com/results?search_query="
     },
-    gh: {
+    github: {
         name: "GitHub",
         url: "https://github.com/",
         searchurl: "https://www.github.com/search?q="
     },
-    r: {
+    reddit: {
         name: "Reddit",
         url: "https://reddit.com/",
         searchurl: "https://www.reddit.com/search?q="
     },
-    l: {
+    linkedin: {
         name: "Linkedin",
         url: "https://linkedin.com/",
     },
@@ -99,6 +99,10 @@ export const COMMANDS: {[string] : CommandType} = {
         name: "wut",
         url: "https://www.urbandictionary.com/",
         searchurl: "https://www.urbandictionary.com/define.php?term="
+    },
+    self: {
+        name: "djtran.dev",
+        url: "https://djtran.dev/",
     },
     me: {
         name: "djtran.dev",
