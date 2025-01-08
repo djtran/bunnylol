@@ -77,9 +77,9 @@ export const COMMANDS: {[string] : CommandType} = {
         searchurl: "https://instagram.com/"
     },
     g: {
-        name: "Google",
-        url: "https://google.com/",
-        searchurl: "https://www.google.com/search?q="
+        name: "Startpage",
+        url: "https://startpage.com/",
+        searchurl: "https://www.startpage.com/sp/search?query="
     },
     cal: {
         name: "Google Calendar",
@@ -97,8 +97,8 @@ export const COMMANDS: {[string] : CommandType} = {
     },
     wut: {
         name: "wut",
-        url: "https://www.urbandictionary.com/",
-        searchurl: "https://www.urbandictionary.com/define.php?term="
+        url: "https://www.perplexity.ai/",
+        searchurl: "https://www.perplexity.ai/search/new?q="
     },
     self: {
         name: "djtran.dev",
@@ -109,8 +109,8 @@ export const COMMANDS: {[string] : CommandType} = {
         url: "https://djtran.dev/",
     },
     DEFAULT: {
-        name: "Default - Google Search",
-        url: "https://google.com/",
-        searchurl: "https://www.google.com/search?q="
+        name: "Default - Startpage",
+        url: "https://startpage.com/",
+        searchurl: "https://www.startpage.com/sp/search?query="
     }
 };
