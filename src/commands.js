@@ -77,9 +77,9 @@ export const COMMANDS: {[string] : CommandType} = {
         searchurl: "https://instagram.com/"
     },
     g: {
-        name: "Startpage",
-        url: "https://startpage.com/",
-        searchurl: "https://www.startpage.com/sp/search?query="
+        name: "Google",
+        url: "https://www.google.com/",
+        searchurl: "https://www.google.com/search?q="
     },
     cal: {
         name: "Google Calendar",
@@ -109,8 +109,8 @@ export const COMMANDS: {[string] : CommandType} = {
         url: "https://djtran.dev/",
     },
     DEFAULT: {
-        name: "Default - Startpage",
-        url: "https://startpage.com/",
-        searchurl: "https://www.startpage.com/sp/search?query="
+        name: "Default - Google",
+        url: "https://www.google.com/",
+        searchurl: "https://www.google.com/search?q="
     }
 };
